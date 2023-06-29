@@ -1,0 +1,109 @@
+body {
+    background-color: black;
+}
+
+.fourier {
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+}
+
+.name {
+    width: 50%;
+    height: 4%;
+    align-content: center;
+    color: white;
+    font-family: monospace, monospace;
+    font-size: 75px;
+    margin: 0px;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    text-align: center;
+}
+
+.designation {
+    width: 50%;
+    height: 4%;
+    align-content: center;
+    color: white;
+    font-family: monospace, monospace;
+    font-size: 25px;
+    margin: 0px;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    text-align: center;
+}
+
+.languages {
+    width: 50%;
+    height: 4%;
+    color: white;
+    align-content: center;
+    font-family: monospace, monospace;
+    font-size: 18px;
+    margin: 0px;
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    text-align: center;
+}
+
+.moonlight {
+    position: absolute;
+    top: 50%;
+    margin: 0px;
+    left: 40%;
+}
+
+.fotia {
+    position: absolute;
+    top: 60%;
+    margin: 0px;
+    left: 40%;
+}
+
+.deifix {
+    position: absolute;
+    top: 70%;
+    margin: 0px;
+    left: 40%;
+}
+
+.caeles {
+    position: absolute;
+    top: 80%;
+    margin: 0px;
+    left: 40%;
+}
+
+.amok {
+    position: absolute;
+    top: 100%;
+    margin: 0px;
+    left: 35%;
+}
+
+.poru {
+    position: absolute;
+    top: 135%;
+    margin: 0px;
+    left: 35%;
+}
+
+.vishu-song {
+    position: absolute;
+    top: 170%;
+    margin: 0px;
+    left: 35%;
+}
+
+.tharang {
+    position: absolute;
+    top: 205%;
+    margin: 0px;
+    left: 35%;
+}
+
