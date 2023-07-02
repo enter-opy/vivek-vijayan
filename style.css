@@ -1,82 +1,71 @@
 body {
+    height: 2000px;
+    text-align: center;
+    margin: 0px;
     background-color: black;
 }
 
-.fourier {
-    width: 50%;
-    position: absolute;
-    left: 25%;
-    top: 20%;
+.space {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0%;
 }
 
 .name {
-    width: 50%;
-    height: 4%;
-    align-content: center;
-    color: white;
     font-family: monospace, monospace;
-    font-size: 75px;
-    margin: 0px;
-    position: absolute;
-    left: 25%;
-    top: 20%;
+
+    color: white;
     text-align: center;
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    font-size: 180px;
+    
+    width: 100%; 
+    min-height: 100vh;
+    
+    display: grid;
+    place-content: center;
 }
 
-.designation {
-    width: 50%;
-    height: 4%;
-    align-content: center;
-    color: white;
-    font-family: monospace, monospace;
-    font-size: 25px;
-    margin: 0px;
+.spotify {
+    border: 5px solid white;
     position: absolute;
-    left: 25%;
-    top: 30%;
-    text-align: center;
-}
-
-.languages {
-    width: 50%;
-    height: 4%;
-    color: white;
-    align-content: center;
-    font-family: monospace, monospace;
-    font-size: 18px;
-    margin: 0px;
-    position: absolute;
-    left: 25%;
-    top: 35%;
-    text-align: center;
+    top: 60%;
+    left: 40%;
+    width: 20%;
 }
 
 .moonlight {
-    position: absolute;
-    top: 50%;
+    position: relative;
     margin: 0px;
-    left: 40%;
-}
-
-.fotia {
-    position: absolute;
-    top: 60%;
-    margin: 0px;
-    left: 40%;
-}
-
-.deifix {
-    position: absolute;
-    top: 70%;
-    margin: 0px;
-    left: 40%;
+    flex: content;
 }
 
 .caeles {
-    position: absolute;
-    top: 80%;
+    position: relative;
     margin: 0px;
-    left: 40%;
+}
+
+.deifix {
+    position: relative;
+    margin: 0px;
+}
+
+.fotia {
+    position: relative;
+    margin: 0px;
 }
 
 .amok {
