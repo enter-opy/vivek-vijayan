@@ -1,5 +1,5 @@
 body {
-    height: 2200px;
+    height: 2500px;
     text-align: center;
     margin: 0px;
     background-color: black;
@@ -221,9 +221,9 @@ body {
     left: 40%;
     width: 20%;
     height: 100px;
-} 
+}
 
-.caeles {
+.viatores {
     position: absolute;
     top: 182%;
     left: 40%;
@@ -231,15 +231,15 @@ body {
     height: 100px;
 }
 
-.deifix {
+.caeles {
     position: absolute;
     top: 196%;
     left: 40%;
     width: 20%;
     height: 100px;
-} 
+}
 
-.fotia {
+.deifix {
     position: absolute;
     top: 210%;
     left: 40%;
@@ -247,37 +247,45 @@ body {
     height: 100px;
 } 
 
+.fotia {
+    position: absolute;
+    top: 224%;
+    left: 40%;
+    width: 20%;
+    height: 100px;
+} 
+
 .amok {
     position: absolute;
-    top: 230%;
+    top: 250%;
     left: 18%;
     width: 30%;
 } 
 
 .poru {
     position: absolute;
-    top: 230%;
+    top: 250%;
     left: 52%;
     width: 30%;
 }
 
 .tharang {
     position: absolute;
-    top: 267.5%;
+    top: 287.5%;
     left: 18%;
     width: 30%;
 } 
 
 .vishu-song {
     position: absolute;
-    top: 267.5%;
+    top: 287.5%;
     left: 52%;
     width: 30%;
 }
 
 @media (max-width: 1100px) {
     body {
-        height: 7000px;
+        height: 7200px;
         text-align: center;
         margin: 0px;
         background-color: black;
@@ -499,8 +507,8 @@ body {
         width: 80%;
         height: 14%;
     } 
-    
-    .caeles {
+
+    .viatores {
         position: absolute;
         top: 178%;
         left: 10%;
@@ -508,15 +516,15 @@ body {
         height: 14%;
     }
     
-    .deifix {
+    .caeles {
         position: absolute;
         top: 193%;
         left: 10%;
         width: 80%;
         height: 14%;
-    } 
+    }
     
-    .fotia {
+    .deifix {
         position: absolute;
         top: 208%;
         left: 10%;
@@ -524,17 +532,25 @@ body {
         height: 14%;
     } 
     
+    .fotia {
+        position: absolute;
+        top: 223%;
+        left: 10%;
+        width: 80%;
+        height: 14%;
+    } 
+    
     .amok {
         position: absolute;
-        top: 230%;
+        top: 245%;
         left: 10%;
         width: 80%;
         height: 25%;
-    } 
+    }
     
     .poru {
         position: absolute;
-        top: 265%;
+        top: 280%;
         left: 10%;
         width: 80%;
         height: 25%;
@@ -542,7 +558,7 @@ body {
     
     .tharang {
         position: absolute;
-        top: 300%;
+        top: 315%;
         left: 10%;
         width: 80%;
         height: 25%;
@@ -550,7 +566,7 @@ body {
     
     .vishu-song {
         position: absolute;
-        top: 330%;
+        top: 345%;
         left: 10%;
         width: 80%;
         height: 25%;
