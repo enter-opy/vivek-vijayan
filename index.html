@@ -19,6 +19,14 @@
         <div class="about">
             Hi, I'm Vivek, a young man trying to learn the language of the universe. I am an Audio Developer, Music Producer and a Computer Science Student. 
         </div>
+
+        <a class="linkedin" href="https://www.linkedin.com/in/vivek-vijayan12/">
+            <b>LinkedIn</b>
+        </a>
+
+        <a class="github" href="https://github.com/enter-opy">
+            <b>Github</b>
+        </a>
         
         <div class="products">
             <img class="products-image" src="products.png" width="42px" height="42px">
@@ -78,8 +86,22 @@
         <iframe class="poru" width="400" height="224" src="https://www.youtube.com/embed/OuLOdfRPvY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe class="tharang" width="400" height="224" src="https://www.youtube.com/embed/0JqvaH6eM24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe class="vishu-song" width="400" height="224" src="https://www.youtube.com/embed/n1kusE82Cxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+        <div class="contact">
+            <img class="telephone-image" src="telephone.png" width="42px" height="42px">
+            Contact Me
+        </div>
+
+        <form onsubmit="formHandle(); reset(); return false;">
+            <input class="name" type="text" id="name" placeholder="Your Name" required>
+            <input class="mail" type="email" id="mail" placeholder="Email id" required>
+            <textarea class="message" type="text" id="message" rows="4" placeholder="Your message here..."></textarea>
+            <button class="send" type="submit">Send</button>
+        </form>
 
         <script type="text/javascript" src="particles.js"></script>
         <script type="text/javascript" src="app.js"></script>
+        <script type="text/javascript" src="https://smtpjs.com/v3/smtp.js"></script>
+        <script type="text/javascript" src="contact.js"></script>
     </body>
 </html>
