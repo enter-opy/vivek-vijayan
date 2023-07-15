@@ -7,7 +7,5 @@ function formHandle() {
         From : document.getElementById("mail").value,
         Subject : "Message from " + document.getElementById("name").value,
         Body : document.getElementById("message").value
-    }).then(
-      message => alert(message)
-    );
+    }).then();
 }
