@@ -4,8 +4,6 @@
         <title>Vivek Vijayan</title>
 
         <link rel="stylesheet" type="text/css" href="style.css"/>
-
-        
     </head>
     <body>
         <div class="space" id="space">
@@ -27,6 +25,10 @@
         <a class="github" href="https://github.com/enter-opy">
             <b>Github</b>
         </a>
+
+        <a class="resume" href="https://github.com/enter-opy/vivek-vijayan/releases/download/release1/resume.pdf">
+            <b>Resume</b>
+        </a>
         
         <div class="products">
             <img class="products-image" src="products.png" width="42px" height="42px">
@@ -39,7 +41,7 @@
 
         <img src="sound-of-music.png" class="sound-of-music-image" width="40%">
 
-        <a class="download-som" href="https://github.com/enter-opy/sound-of-music/releases/tag/v2">
+        <a class="download-som" href="https://github.com/enter-opy/sound-of-music/releases/download/v2/Sound.of.music.vst3">
             <b>Download</b>
         </a>
 
@@ -93,15 +95,13 @@
         </div>
 
         <form onsubmit="formHandle(); reset(); return false;">
-            <input class="name" type="text" id="name" placeholder="Your Name" required>
-            <input class="mail" type="email" id="mail" placeholder="Email id" required>
-            <textarea class="message" type="text" id="message" rows="4" placeholder="Your message here..."></textarea>
+            <input class="name" type="text" id="name" name="name" placeholder="Your Name" required>
+            <input class="email" type="email" id="email" name="email" placeholder="Email id" required>
+            <textarea class="message" type="text" id="message" name="message" rows="4" placeholder="Your message here..."></textarea>
             <button class="send" type="submit">Send</button>
         </form>
 
         <script type="text/javascript" src="particles.js"></script>
         <script type="text/javascript" src="app.js"></script>
-        <script type="text/javascript" src="https://smtpjs.com/v3/smtp.js"></script>
-        <script type="text/javascript" src="contact.js"></script>
     </body>
 </html>
