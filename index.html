@@ -10,8 +10,8 @@
 
         <div class="space" id="space"></div>
 
-        <div class="mute" onclick="pause()">
-            <img class="note" src="note.png">
+        <div class="button" onclick="pauseplayMusic()">
+            <img class="notation" id="notation" src="note.png">
         </div>
 
         <div class="vivek">
@@ -108,11 +108,18 @@
         <script type="text/javascript" src="particles.js"></script>
         <script type="text/javascript" src="app.js"></script>
         <script>
-            //const music = document.getElementById("music");
+            notation = document.getElementById("notation");
+            music = document.getElementById("music");
 
-            function pause() {
-                console.log("abc")
-                //music.pause();
+            function pauseplayMusic() {
+                if (music.getAttribute("src") == "music.mp3") {
+                    music.src = "";
+                    notation.src = "rest.png";
+                }
+                else {
+                    music.src = "music.mp3";
+                    notation.src = "note.png";
+                }  
             }
         </script>
     </body>
