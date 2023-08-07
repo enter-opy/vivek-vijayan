@@ -216,6 +216,7 @@ body {
     font-size: 20px;
     width: 18%;
     height: 5%;
+    visibility: visible;
 }
 
 .drumbeat {
@@ -224,6 +225,7 @@ body {
     left: 52%;
     width: 18%;
     height: 5%;
+    visibility: visible;
 }
 
 .synth {
@@ -232,6 +234,7 @@ body {
     left: 52%;
     width: 18%;
     height: 5%;
+    visibility: visible;
 }
 
 .processed {
@@ -244,6 +247,7 @@ body {
     font-size: 20px;
     width: 18%;
     height: 5%;
+    visibility: visible;
 }
 
 .drumbeat-som {
@@ -252,6 +256,7 @@ body {
     left: 52%;
     width: 18%;
     height: 5%;
+    visibility: visible;
 }
 
 .synth-som {
@@ -260,6 +265,7 @@ body {
     left: 52%;
     width: 18%;
     height: 5%;
+    visibility: visible;
 }
 
 .disc-image {
@@ -287,7 +293,15 @@ body {
 .moonlight {
     position: absolute;
     top: 168%;
-    left: 40%;
+    left: 28%;
+    width: 20%;
+    height: 100px;
+}
+
+.saltare {
+    position: absolute;
+    top: 168%;
+    left: 52%;
     width: 20%;
     height: 100px;
 }
@@ -295,59 +309,59 @@ body {
 .viatores {
     position: absolute;
     top: 182%;
-    left: 40%;
+    left: 28%;
     width: 20%;
     height: 100px;
 }
 
 .caeles {
     position: absolute;
+    top: 182%;
+    left: 52%;
+    width: 20%;
+    height: 100px;
+} 
+
+.deifix {
+    position: absolute;
     top: 196%;
-    left: 40%;
+    left: 28%;
     width: 20%;
     height: 100px;
 }
 
-.deifix {
-    position: absolute;
-    top: 210%;
-    left: 40%;
-    width: 20%;
-    height: 100px;
-} 
-
 .fotia {
     position: absolute;
-    top: 224%;
-    left: 40%;
+    top: 196%;
+    left: 52%;
     width: 20%;
     height: 100px;
-} 
+}
 
 .amok {
     position: absolute;
-    top: 250%;
+    top: 220%;
     left: 18%;
     width: 30%;
 } 
 
 .poru {
     position: absolute;
-    top: 250%;
+    top: 220%;
     left: 52%;
     width: 30%;
 }
 
 .tharang {
     position: absolute;
-    top: 287.5%;
+    top: 257.5%;
     left: 18%;
     width: 30%;
 } 
 
 .vishu-song {
     position: absolute;
-    top: 287.5%;
+    top: 257.5%;
     left: 52%;
     width: 30%;
 }
@@ -357,6 +371,7 @@ body {
     float: left;
     margin-right: 15px;
     top: 5px;
+    visibility: visible;
 }
 
 .contact {
@@ -364,7 +379,7 @@ body {
     color: white;
     text-align: center;
     position: absolute;
-    top: 330%;
+    top: 310%;
     left: 0;
     font-size: 45px;
     width: 100%; 
@@ -372,6 +387,7 @@ body {
     display: flex;
     float: left;
     place-content: center;
+    visibility: visible;
 }
 
 .name {
@@ -379,7 +395,7 @@ body {
     color: white;
     text-align: center;
     position: absolute;
-    top: 345%;
+    top: 325%;
     left: 35.5%;
     width: 28%;
     height: 4%;
@@ -389,6 +405,7 @@ body {
     border-radius: 4px;
     text-decoration: none;
     border: 1px solid white;
+    visibility: visible;
 }
 
 .email {
@@ -396,7 +413,7 @@ body {
     color: white;
     text-align: center;
     position: absolute;
-    top: 353%;
+    top: 333%;
     left: 35.5%;
     width: 28%;
     height: 4%;
@@ -406,6 +423,7 @@ body {
     text-decoration: none;
     border: 1px solid white;
     padding: 0.5%;
+    visibility: visible;
 }
 
 .message {
@@ -413,7 +431,7 @@ body {
     color: white;
     text-align: left;
     position: absolute;
-    top: 361%;
+    top: 341%;
     left: 35.5%;
     padding: 0.5%;
     width: 28%;
@@ -423,6 +441,7 @@ body {
     border-radius: 4px;
     text-decoration: none;
     border: 1px solid white;
+    visibility: visible;
 }
 
 .send {
@@ -430,7 +449,7 @@ body {
     color: black;
     text-align: center;
     position: absolute;
-    top: 385%;
+    top: 365%;
     left: 35.5%;
     width: 10%;
     height: 6%;
@@ -440,6 +459,7 @@ body {
     text-decoration: none;
     border: 1px solid white;
     padding: 0.5%;
+    visibility: visible;
 }
 
 @media (max-width: 1100px) {
@@ -448,6 +468,78 @@ body {
         text-align: center;
         margin: 0px;
         background-color: black;
+    }
+
+    .button {
+        position: fixed;
+        top: 5%;
+        right: 5%;
+        width: 150px;
+        height: 150px;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 10px;
+        text-decoration: none;
+        z-index: 1;
+        box-shadow: 0px 0px 40px rgb(0, 0, 0);
+    }
+
+    .notation {
+        position: relative;
+        top: 15%;
+        width: 90px;
+        height: 105px;
+    }
+
+    .linkedin {
+        font-family: monospace, monospace;
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        width: 60%;
+        height: 5%;
+        font-size: 50px;
+        background-color: #0A66C2;
+        padding-top: 3%;
+        border-radius: 40px;
+        text-decoration: none;
+        border: 1px solid #0A66C2;
+    }
+    
+    .github {
+        font-family: monospace, monospace;
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        width: 60%;
+        height: 5%;
+        font-size: 50px;
+        background-color: #0D1117;
+        padding-top: 3%;
+        border: 1px solid white;
+        border-radius: 40px;
+        text-decoration: none;
+    }
+    
+    .resume {
+        font-family: monospace, monospace;
+        color: black;
+        text-align: center;
+        position: absolute;
+        top: 60%;
+        left: 20%;
+        width: 60%;
+        height: 5%;
+        font-size: 50px;
+        background-color: white;
+        padding-top: 3%;
+        border: 1px solid white;
+        border-radius: 40px;
+        text-decoration: none;
     }
     
     .space {
@@ -469,7 +561,7 @@ body {
         color: white;
         text-align: center;
         position: absolute;
-        top: -37.5%;
+        top: -32.5%;
         left: 0;
         font-size: 80px;
         width: 100%; 
@@ -483,7 +575,7 @@ body {
         color: white;
         text-align: center;
         position: absolute;
-        top: -25%;
+        top: -20%;
         left: 10%;
         font-size: 40px;
         width: 80%; 
@@ -504,7 +596,7 @@ body {
         color: white;
         text-align: center;
         position: absolute;
-        top: 35%;
+        top: 75%;
         left: 0;
         font-size: 70px;
         width: 100%; 
@@ -519,7 +611,7 @@ body {
         font-family: monospace, monospace;
         color: white;
         position: absolute;
-        top: 42%;
+        top: 82%;
         left: 25%;
         font-size: 55px;
         width: 50%;
@@ -528,7 +620,7 @@ body {
     
     .sound-of-music-image {
         position: absolute;
-        top: 50%;
+        top: 88%;
         left: 10%;
         width: 80%;
         border: 1px solid white;
@@ -540,7 +632,7 @@ body {
         color: black;
         text-align: center;
         position: absolute;
-        top: 129%;
+        top: 140%;
         left: 10%;
         width: 80%;
         height: 5%;
@@ -557,7 +649,7 @@ body {
         color: white;
         text-align: center;
         position: absolute;
-        top: 139%;
+        top: 150%;
         left: 10%;
         width: 80%;
         height: 5%;
@@ -574,7 +666,7 @@ body {
         color: white;
         text-align: justify;
         position: absolute;
-        top: 80%;
+        top: 120%;
         left: 10%;
         font-size: 40px;
         width: 80%; 
@@ -583,58 +675,27 @@ body {
     }
     
     .raw {
-        text-align: left;
-        font-family: monospace, monospace;
-        color: white;
-        position: absolute;
-        top: 98%;
-        left: 10%;
-        font-size: 50px;
-        width: 18%;
-        height: 5%;
+        visibility: hidden;
     }
     
     .drumbeat {
-        position: absolute;
-        top: 100%;
-        left: 10%;
-        width: 50%;
+        visibility: hidden;
     }
     
     .synth {
-        position: absolute;
-        top: 105%;
-        left: 10%;
-        width: 50%;
-        height: 5%;
+        visibility: hidden;
     }
     
     .processed {
-        text-align: left;
-        font-family: monospace, monospace;
-        color: white;
-        position: absolute;
-        top: 112%;
-        left: 10%;
-        font-size: 50px;
-        width: 18%;
-        height: 5%;
+        visibility: hidden;
     }
     
     .drumbeat-som {
-        position: absolute;
-        top: 114%;
-        left: 10%;
-        width: 50%;
-        height: 5%;
+        visibility: hidden;
     }
     
     .synth-som {
-        position: absolute;
-        top: 119%;
-        left: 10%;
-        width: 50%;
-        height: 5%;
+        visibility: hidden;
     }
     
     .disc-image {
@@ -649,7 +710,7 @@ body {
         color: white;
         text-align: center;
         position: absolute;
-        top: 152%;
+        top: 165%;
         left: 0;
         font-size: 70px;
         width: 100%; 
@@ -661,15 +722,23 @@ body {
     
     .moonlight {
         position: absolute;
-        top: 163%;
+        top: 175%;
         left: 10%;
         width: 80%;
         height: 14%;
     } 
 
+    .saltare {
+        position: absolute;
+        top: 190%;
+        left: 10%;
+        width: 80%;
+        height: 14%;
+    }
+    
     .viatores {
         position: absolute;
-        top: 178%;
+        top: 205%;
         left: 10%;
         width: 80%;
         height: 14%;
@@ -677,23 +746,23 @@ body {
     
     .caeles {
         position: absolute;
-        top: 193%;
-        left: 10%;
-        width: 80%;
-        height: 14%;
-    }
-    
-    .deifix {
-        position: absolute;
-        top: 208%;
+        top: 220%;
         left: 10%;
         width: 80%;
         height: 14%;
     } 
     
+    .deifix {
+        position: absolute;
+        top: 235%;
+        left: 10%;
+        width: 80%;
+        height: 14%;
+    } 
+
     .fotia {
         position: absolute;
-        top: 223%;
+        top: 250%;
         left: 10%;
         width: 80%;
         height: 14%;
@@ -701,7 +770,7 @@ body {
     
     .amok {
         position: absolute;
-        top: 245%;
+        top: 270%;
         left: 10%;
         width: 80%;
         height: 25%;
@@ -709,7 +778,7 @@ body {
     
     .poru {
         position: absolute;
-        top: 280%;
+        top: 300%;
         left: 10%;
         width: 80%;
         height: 25%;
@@ -717,7 +786,7 @@ body {
     
     .tharang {
         position: absolute;
-        top: 315%;
+        top: 330%;
         left: 10%;
         width: 80%;
         height: 25%;
@@ -725,9 +794,33 @@ body {
     
     .vishu-song {
         position: absolute;
-        top: 345%;
+        top: 360%;
         left: 10%;
         width: 80%;
         height: 25%;
+    }
+
+    .telephone-image {
+        visibility: hidden;
+    }
+    
+    .contact {
+        visibility: hidden;
+    }
+    
+    .name {
+        visibility: hidden;
+    }
+    
+    .email {
+        visibility: hidden;
+    }
+    
+    .message {
+        visibility: hidden;
+    }
+    
+    .send {
+        visibility: hidden;
     }
 }
