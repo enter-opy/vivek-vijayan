@@ -348,7 +348,7 @@ body {
     color: white;
     text-align: center;
     position: absolute;
-    top: 250%;
+    top: 240%;
     left: 0;
     font-size: 45px;
     width: 100%; 
@@ -359,6 +359,22 @@ body {
 }
 
 .moonlight {
+    position: absolute;
+    top: 254%;
+    left: 28%;
+    width: 20%;
+    height: 100px;
+}
+
+.vires {
+    position: absolute;
+    top: 254%;
+    left: 52%;
+    width: 20%;
+    height: 100px;
+}
+
+.paranoia {
     position: absolute;
     top: 268%;
     left: 28%;
