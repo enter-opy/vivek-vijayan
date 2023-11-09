@@ -6,13 +6,7 @@
         <link rel="stylesheet" type="text/css" href="style.css"/>
     </head>
     <body>
-        <audio id="music" preload="auto" controls autoplay loop src="music.mp3" type="audio/mp3" style="visibility: hidden;"></audio>
-
         <div class="space" id="space"></div>
-
-        <div class="button" onclick="pauseplayMusic()">
-            <img class="notation" id="notation" src="note.png">
-        </div>
 
         <div class="vivek">
             Vivek Vijayan
@@ -35,68 +29,66 @@
         </a>
         
         <div class="products">
-            <img class="products-image" src="products.png" width="42px" height="42px">
+            <img class="products-image" src="res/products.png" width="42px" height="42px">
             Projects
         </div>
 
-        <div class="title-som">
-            Sound of Music
+        <div class="pulp-fiction-title">
+            Pulp fiction
         </div>
 
-        <img src="sound-of-music.png" class="sound-of-music-image" width="40%">
+        <img src="res/pulp-fiction.png" class="pulp-fiction-image" width="40%">
 
-        <a class="download-som" href="https://github.com/enter-opy/sound-of-music/releases/download/v2/Sound.of.music.vst3">
+        <a class="pulp-fiction-download" href="https://github.com/enter-opy/pulp-fiction/releases/tag/vst3">
             <b>Download</b>
         </a>
 
-        <a class="github-som" href="https://github.com/enter-opy/sound-of-music">
+        <a class="pulp-fiction-github" href="https://github.com/enter-opy/pulp-fiction">
             <b>Github</b>
         </a>
 
-        <div class="sound-of-music">
-            Sound of music is a multiband bit-crusher which lets you add digital artifacts to your sound. You can simulate transmission loss to your sounds or give 8-bit sound to your drums and much more. 
+        <div class="pulp-fiction-description">
+            <p>Transform your audio landscape effortlessly. With dynamic versatility, this multi-FX rack plugin allows you to handpick effects and tailor your sound with finesse.</p>
         </div>
 
-        <div class="raw">
-            Raw
+        <div class="sound-of-music-title">
+            Sound of Music
         </div>
 
-        <audio controls src="drumbeat.wav" class="drumbeat">
-        </audio>
+        <img src="res/sound-of-music.png" class="sound-of-music-image" width="40%">
 
-        <audio controls src="synth.wav" class="synth">
-        </audio>
+        <a class="sound-of-music-download" href="https://github.com/enter-opy/sound-of-music/releases/tag/v2">
+            <b>Download</b>
+        </a>
 
-        <div class="processed">
-            Processed
+        <a class="sound-of-music-github" href="https://github.com/enter-opy/sound-of-music">
+            <b>Github</b>
+        </a>
+
+        <div class="sound-of-music-description">
+            <p>A multiband bit-crusher transforming your sound effortlessly. Simulate transmission loss, infuse an 8-bit vibe into your drums, and explore endless possibilities. Redefine your music with a touch of creative innovation.</p>
         </div>
 
-        <audio controls src="drumbeat-som.wav" class="drumbeat-som">
-        </audio>
-
-        <audio controls src="synth-som.wav" class="synth-som">
-        </audio>
-
-        <div class="title-pad">
+        <div class="pneumonia-detection-title">
             Pulmonary Ailment Detection
         </div>
 
-        <img src="pulmonary-ailment-detection.png" class="pulmonary-ailment-detection-image" width="40%">
+        <img src="res/pneumonia-detection.png" class="pneumonia-detection-image" width="40%">
 
-        <a class="goto-pad" href="https://enter-opy.github.io/lung-disease-detection/">
+        <a class="pneumonia-detection-goto" href="https://pneumonia-detection-seven.vercel.app/">
             <b>Goto</b>
         </a>
 
-        <a class="github-pad" href="https://github.com/enter-opy/lung-disease-detection">
+        <a class="pneumonia-detection-github" href="https://github.com/enter-opy/pneumonia-detection">
             <b>Github</b>
         </a>
 
-        <div class="pulmonary-ailment-detection">
-            This is a web app which lets you diagnose lung disease with an accuracy of 98%. Upload a chest x-ray image or a photo of the chest x-ray sheet and click the diagnose button to see the result.
+        <div class="pneumonia-detection-description">
+            <p>An accurate lung disease diagnostic tool. Simply upload a chest x-ray image or a photo of the x-ray sheet and click 'diagnose' to see the results. Your health, simplified with a click.</p>
         </div>
 
         <div class="discography">
-            <img class="disc-image" src="disc.png" width="50px" height="50px">
+            <img class="disc-image" src="res/disc.png" width="50px" height="50px">
             Discography 
         </div>
 
@@ -113,35 +105,8 @@
         <iframe class="poru" width="400" height="224" src="https://www.youtube.com/embed/OuLOdfRPvY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe class="tharang" width="400" height="224" src="https://www.youtube.com/embed/0JqvaH6eM24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe class="vishu-song" width="400" height="224" src="https://www.youtube.com/embed/n1kusE82Cxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        
-        <div class="contact">
-            <img class="telephone-image" src="telephone.png" width="42px" height="42px">
-            Contact Me
-        </div>
 
-        <form>
-            <input class="name" type="text" id="name" name="name" placeholder="Your Name" required>
-            <input class="email" type="email" id="email" name="email" placeholder="Email id" required>
-            <textarea class="message" type="text" id="message" name="message" rows="4" placeholder="Your message here..."></textarea>
-            <button class="send" type="submit">Send</button>
-        </form>
-
-        <script type="text/javascript" src="particles.js"></script>
-        <script type="text/javascript" src="app.js"></script>
-        <script>
-            notation = document.getElementById("notation");
-            music = document.getElementById("music");
-
-            function pauseplayMusic() {
-                if (music.getAttribute("src") == "music.mp3") {
-                    music.src = "";
-                    notation.src = "rest.png";
-                }
-                else {
-                    music.src = "music.mp3";
-                    notation.src = "note.png";
-                }  
-            }
-        </script>
+        <script type="text/javascript" src="scripts/particles.js"></script>
+        <script type="text/javascript" src="scripts/app.js"></script>
     </body>
 </html>

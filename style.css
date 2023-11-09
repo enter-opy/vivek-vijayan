@@ -1,29 +1,8 @@
 body {
-    height: 2500px;
     text-align: center;
     margin: 0px;
     background-color: black;
 }
-
-.button {
-    position: fixed;
-    top: 5%;
-    right: 5%;
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 10px;
-    text-decoration: none;
-    z-index: 1;
-}
-
-.notation {
-    position: relative;
-    top: 15%;
-    width: 30px;
-    height: 35px;
-} 
 
 .space {
     position: fixed;
@@ -44,7 +23,7 @@ body {
     color: white;
     text-align: center;
     position: absolute;
-    top: 4%;
+    top: 7%;
     left: 25%;
     font-size: 60px;
     width: 50%; 
@@ -138,13 +117,81 @@ body {
     place-content: center;
 }
 
-.title-som {
-    text-align: left;
+.pulp-fiction-title {
+    text-align: center;
     font-family: monospace, monospace;
     color: white;
     position: absolute;
-    top: 80%;
-    left: 18%;
+    top: 75%;
+    left: 41%;
+    font-size: 35px;
+    width: 18%;
+    height: 5%;
+}
+
+.pulp-fiction-image {
+    position: absolute;
+    top:85%;
+    left: 35%;
+    width: 30%;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.pulp-fiction-download {
+    font-family: monospace, monospace;
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 140%;
+    left: 41%;
+    width: 8%;
+    height: 4%;
+    font-size: 18px;
+    background-color: white;
+    padding-top: 0.5%;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.pulp-fiction-github {
+    font-family: monospace, monospace;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 140%;
+    left: 51%;
+    width: 8%;
+    height: 4%;
+    font-size: 18px;
+    background-color: #0D1117;
+    padding-top: 0.5%;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.pulp-fiction-description {
+    font-family: monospace, monospace;
+    color: white;
+    text-align: justify;
+    position: absolute;
+    top: 117%;
+    left: 35%;
+    font-size: 20px;
+    width: 30%; 
+    min-height: 100vh;
+    display: grid;
+}
+
+.sound-of-music-title {
+    text-align: center;
+    font-family: monospace, monospace;
+    color: white;
+    position: absolute;
+    top: 152%;
+    left: 41%;
     font-size: 35px;
     width: 18%;
     height: 5%;
@@ -152,20 +199,20 @@ body {
 
 .sound-of-music-image {
     position: absolute;
-    top: 89%;
-    left: 18%;
+    top:162%;
+    left: 35%;
     width: 30%;
     border: 1px solid white;
     border-radius: 5px;
 }
 
-.download-som {
+.sound-of-music-download {
     font-family: monospace, monospace;
     color: black;
     text-align: center;
     position: absolute;
-    top: 132%;
-    left: 18%;
+    top: 228%;
+    left: 41%;
     width: 8%;
     height: 4%;
     font-size: 18px;
@@ -176,13 +223,13 @@ body {
     border: 1px solid white;
 }
 
-.github-som {
+.sound-of-music-github {
     font-family: monospace, monospace;
     color: white;
     text-align: center;
     position: absolute;
-    top: 132%;
-    left: 27%;
+    top: 228%;
+    left: 51%;
     width: 8%;
     height: 4%;
     font-size: 18px;
@@ -193,720 +240,85 @@ body {
     text-decoration: none;
 }
 
-.sound-of-music {
-    font-family: monospace, monospace;
-    color: white;
-    text-align: justify;
-    position: absolute;
-    top: 80%;
-    left: 52%;
-    font-size: 20px;
-    width: 30%; 
-    min-height: 100vh;
-    display: grid;
-}
-
-.raw {
-    text-align: left;
-    font-family: monospace, monospace;
-    color: white;
-    position: absolute;
-    top: 100%;
-    left: 52%;
-    font-size: 20px;
-    width: 18%;
-    height: 5%;
-    visibility: visible;
-}
-
-.drumbeat {
-    position: absolute;
-    top: 105%;
-    left: 52%;
-    width: 18%;
-    height: 5%;
-    visibility: visible;
-}
-
-.synth {
-    position: absolute;
-    top: 112%;
-    left: 52%;
-    width: 18%;
-    height: 5%;
-    visibility: visible;
-}
-
-.processed {
-    text-align: left;
-    font-family: monospace, monospace;
-    color: white;
-    position: absolute;
-    top: 120%;
-    left: 52%;
-    font-size: 20px;
-    width: 18%;
-    height: 5%;
-    visibility: visible;
-}
-
-.drumbeat-som {
-    position: absolute;
-    top: 125%;
-    left: 52%;
-    width: 18%;
-    height: 5%;
-    visibility: visible;
-}
-
-.synth-som {
-    position: absolute;
-    top: 132%;
-    left: 52%;
-    width: 18%;
-    height: 5%;
-    visibility: visible;
-}
-
-.title-pad {
-    text-align: left;
-    font-family: monospace, monospace;
-    color: white;
-    position: absolute;
-    top: 150%;
-    left: 18%;
-    font-size: 30px;
-    width: 30%;
-    height: 5%;
-}
-
-.pulmonary-ailment-detection-image {
-    position: absolute;
-    top: 159%;
-    left: 18%;
-    width: 30%;
-    border: 1px solid white;
-    border-radius: 5px;
-}
-
-.goto-pad {
-    font-family: monospace, monospace;
-    color: black;
-    text-align: center;
-    position: absolute;
-    top: 222%;
-    left: 18%;
-    width: 8%;
-    height: 4%;
-    z-index: 1;
-    font-size: 18px;
-    background-color: white;
-    padding-top: 0.5%;
-    border-radius: 4px;
-    text-decoration: none;
-    border: 1px solid white;
-}
-
-.github-pad {
-    font-family: monospace, monospace;
-    color: white;
-    text-align: center;
-    position: absolute;
-    z-index: 1;
-    top: 222%;
-    left: 27%;
-    width: 8%;
-    height: 4%;
-    font-size: 18px;
-    background-color: #0D1117;
-    padding-top: 0.5%;
-    border: 1px solid white;
-    border-radius: 4px;
-    text-decoration: none;
-}
-
-.pulmonary-ailment-detection {
+.sound-of-music-description {
     font-family: monospace, monospace;
     color: white;
     text-align: justify;
     position: absolute;
     top: 202%;
-    left: 18%;
+    left: 35%;
     font-size: 20px;
     width: 30%; 
     min-height: 100vh;
     display: grid;
 }
 
-.disc-image {
-    position: relative;
-    float: left;
-    margin-right: 10px;
-    top: 5px;
-}   
-
-.discography {
+.pneumonia-detection-title {
+    text-align: center;
     font-family: monospace, monospace;
     color: white;
-    text-align: center;
     position: absolute;
     top: 240%;
-    left: 0;
-    font-size: 45px;
-    width: 100%; 
-    min-height: 100vh;
-    display: flex;
-    float: left;
-    place-content: center;
-}
-
-.moonlight {
-    position: absolute;
-    top: 254%;
-    left: 28%;
-    width: 20%;
-    height: 100px;
-}
-
-.vires {
-    position: absolute;
-    top: 254%;
-    left: 52%;
-    width: 20%;
-    height: 100px;
-}
-
-.paranoia {
-    position: absolute;
-    top: 268%;
-    left: 28%;
-    width: 20%;
-    height: 100px;
-}
-
-.saltare {
-    position: absolute;
-    top: 268%;
-    left: 52%;
-    width: 20%;
-    height: 100px;
-}
-
-.viatores {
-    position: absolute;
-    top: 282%;
-    left: 28%;
-    width: 20%;
-    height: 100px;
-}
-
-.caeles {
-    position: absolute;
-    top: 282%;
-    left: 52%;
-    width: 20%;
-    height: 100px;
-} 
-
-.deifix {
-    position: absolute;
-    top: 296%;
-    left: 28%;
-    width: 20%;
-    height: 100px;
-}
-
-.fotia {
-    position: absolute;
-    top: 296%;
-    left: 52%;
-    width: 20%;
-    height: 100px;
-}
-
-.amok {
-    position: absolute;
-    top: 320%;
-    left: 18%;
+    left: 35%;
+    font-size: 30px;
     width: 30%;
-} 
+    height: 5%;
+}
 
-.poru {
+.pneumonia-detection-image {
     position: absolute;
-    top: 320%;
-    left: 52%;
+    top: 250%;
+    left: 35%;
     width: 30%;
-}
-
-.tharang {
-    position: absolute;
-    top: 357.5%;
-    left: 18%;
-    width: 30%;
-} 
-
-.vishu-song {
-    position: absolute;
-    top: 357.5%;
-    left: 52%;
-    width: 30%;
-}
-
-.telephone-image {
-    position: relative;
-    float: left;
-    margin-right: 15px;
-    top: 5px;
-    visibility: visible;
-}
-
-.contact {
-    font-family: monospace, monospace;
-    color: white;
-    text-align: center;
-    position: absolute;
-    top: 410%;
-    left: 0;
-    font-size: 45px;
-    width: 100%; 
-    min-height: 100vh;
-    display: flex;
-    float: left;
-    place-content: center;
-    visibility: visible;
-}
-
-.name {
-    font-family: monospace, monospace;
-    color: white;
-    text-align: center;
-    position: absolute;
-    top: 425%;
-    left: 35.5%;
-    width: 28%;
-    height: 4%;
-    font-size: 18px;
-    background-color: #00000000;
-    padding: 0.5%;
-    border-radius: 4px;
-    text-decoration: none;
     border: 1px solid white;
-    visibility: visible;
+    border-radius: 5px;
 }
 
-.email {
-    font-family: monospace, monospace;
-    color: white;
-    text-align: center;
-    position: absolute;
-    top: 433%;
-    left: 35.5%;
-    width: 28%;
-    height: 4%;
-    font-size: 18px;
-    background-color: #00000000;
-    border-radius: 4px;
-    text-decoration: none;
-    border: 1px solid white;
-    padding: 0.5%;
-    visibility: visible;
-}
-
-.message {
-    font-family: monospace, monospace;
-    color: white;
-    text-align: left;
-    position: absolute;
-    top: 441%;
-    left: 35.5%;
-    padding: 0.5%;
-    width: 28%;
-    height: 20%;
-    font-size: 18px;
-    background-color: #00000000;
-    border-radius: 4px;
-    text-decoration: none;
-    border: 1px solid white;
-    visibility: visible;
-}
-
-.send {
+.pneumonia-detection-goto {
     font-family: monospace, monospace;
     color: black;
     text-align: center;
     position: absolute;
-    top: 465%;
-    left: 35.5%;
-    width: 10%;
-    height: 6%;
-    font-size: 20px;
+    top: 315%;
+    left: 41%;
+    width: 8%;
+    height: 4%;
+    z-index: 1;
+    font-size: 18px;
     background-color: white;
+    padding-top: 0.5%;
     border-radius: 4px;
     text-decoration: none;
     border: 1px solid white;
-    padding: 0.5%;
-    visibility: visible;
 }
 
-@media (max-width: 1100px) {
-    body {
-        height: 7200px;
-        text-align: center;
-        margin: 0px;
-        background-color: black;
-    }
+.pneumonia-detection-github {
+    font-family: monospace, monospace;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 315%;
+    left: 51%;
+    width: 8%;
+    height: 4%;
+    font-size: 18px;
+    background-color: #0D1117;
+    padding-top: 0.5%;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-decoration: none;
+}
 
-    .button {
-        position: fixed;
-        top: 5%;
-        right: 5%;
-        width: 150px;
-        height: 150px;
-        background-color: white;
-        border: 1px solid white;
-        border-radius: 30px;
-        text-decoration: none;
-        z-index: 1;
-        box-shadow: 0px 0px 40px rgb(0, 0, 0);
-    }
-
-    .notation {
-        position: relative;
-        top: 15%;
-        width: 90px;
-        height: 105px;
-    }
-
-    .linkedin {
-        font-family: monospace, monospace;
-        color: white;
-        text-align: center;
-        position: absolute;
-        top: 40%;
-        left: 20%;
-        width: 60%;
-        height: 5%;
-        font-size: 50px;
-        background-color: #0A66C2;
-        padding-top: 3%;
-        border-radius: 40px;
-        text-decoration: none;
-        border: 1px solid #0A66C2;
-    }
-    
-    .github {
-        font-family: monospace, monospace;
-        color: white;
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 20%;
-        width: 60%;
-        height: 5%;
-        font-size: 50px;
-        background-color: #0D1117;
-        padding-top: 3%;
-        border: 1px solid white;
-        border-radius: 40px;
-        text-decoration: none;
-    }
-    
-    .resume {
-        font-family: monospace, monospace;
-        color: black;
-        text-align: center;
-        position: absolute;
-        top: 60%;
-        left: 20%;
-        width: 60%;
-        height: 5%;
-        font-size: 50px;
-        background-color: white;
-        padding-top: 3%;
-        border: 1px solid white;
-        border-radius: 40px;
-        text-decoration: none;
-    }
-    
-    .space {
-        position: fixed;
-        top: 0;
-        left: 0;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50% 50%;
-        background-color: black;
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-        padding: 0%;
-    }
-    
-    .vivek {
-        font-family: monospace, monospace;
-        color: white;
-        text-align: center;
-        position: absolute;
-        top: -32.5%;
-        left: 0;
-        font-size: 80px;
-        width: 100%; 
-        min-height: 100vh;
-        display: grid;
-        place-content: center;
-    }
-    
-    .about {
-        font-family: monospace, monospace;
-        color: white;
-        text-align: center;
-        position: absolute;
-        top: -20%;
-        left: 10%;
-        font-size: 40px;
-        width: 80%; 
-        min-height: 100vh;
-        display: grid;
-        place-content: center;
-    }
-    
-    .products-image {
-        position: relative;
-        float: left;
-        margin-right: 15px;
-        top: 20px;
-    } 
-    
-    .products {
-        font-family: monospace, monospace;
-        color: white;
-        text-align: center;
-        position: absolute;
-        top: 75%;
-        left: 0;
-        font-size: 70px;
-        width: 100%; 
-        min-height: 100vh;
-        display: flex;
-        float: left;
-        place-content: center;
-    }
-    
-    .title-som {
-        text-align: center;
-        font-family: monospace, monospace;
-        color: white;
-        position: absolute;
-        top: 82%;
-        left: 25%;
-        font-size: 55px;
-        width: 50%;
-        height: 5%;
-    }
-    
-    .sound-of-music-image {
-        position: absolute;
-        top: 88%;
-        left: 10%;
-        width: 80%;
-        border: 1px solid white;
-        border-radius: 5px;
-    }
-    
-    .download-som {
-        font-family: monospace, monospace;
-        color: black;
-        text-align: center;
-        position: absolute;
-        top: 140%;
-        left: 10%;
-        width: 80%;
-        height: 5%;
-        font-size: 60px;
-        background-color: white;
-        padding-top: 2%;
-        border-radius: 50px;
-        text-decoration: none;
-        border: 1px solid white;
-    }
-    
-    .github-som {
-        font-family: monospace, monospace;
-        color: white;
-        text-align: center;
-        position: absolute;
-        top: 150%;
-        left: 10%;
-        width: 80%;
-        height: 5%;
-        font-size: 60px;
-        background-color: #0D1117;
-        padding-top: 2%;
-        border-radius: 50px;
-        text-decoration: none;
-        border: 1px solid white;
-    }
-    
-    .sound-of-music {
-        font-family: monospace, monospace;
-        color: white;
-        text-align: justify;
-        position: absolute;
-        top: 120%;
-        left: 10%;
-        font-size: 40px;
-        width: 80%; 
-        min-height: 100vh;
-        display: grid;
-    }
-    
-    .raw {
-        visibility: hidden;
-    }
-    
-    .drumbeat {
-        visibility: hidden;
-    }
-    
-    .synth {
-        visibility: hidden;
-    }
-    
-    .processed {
-        visibility: hidden;
-    }
-    
-    .drumbeat-som {
-        visibility: hidden;
-    }
-    
-    .synth-som {
-        visibility: hidden;
-    }
-    
-    .disc-image {
-        position: relative;
-        float: left;
-        margin-right: 10px;
-        top: 20px;
-    }   
-    
-    .discography {
-        font-family: monospace, monospace;
-        color: white;
-        text-align: center;
-        position: absolute;
-        top: 165%;
-        left: 0;
-        font-size: 70px;
-        width: 100%; 
-        min-height: 100vh;
-        display: flex;
-        float: left;
-        place-content: center;
-    }
-    
-    .moonlight {
-        position: absolute;
-        top: 175%;
-        left: 10%;
-        width: 80%;
-        height: 14%;
-    } 
-
-    .saltare {
-        position: absolute;
-        top: 190%;
-        left: 10%;
-        width: 80%;
-        height: 14%;
-    }
-    
-    .viatores {
-        position: absolute;
-        top: 205%;
-        left: 10%;
-        width: 80%;
-        height: 14%;
-    }
-    
-    .caeles {
-        position: absolute;
-        top: 220%;
-        left: 10%;
-        width: 80%;
-        height: 14%;
-    } 
-    
-    .deifix {
-        position: absolute;
-        top: 235%;
-        left: 10%;
-        width: 80%;
-        height: 14%;
-    } 
-
-    .fotia {
-        position: absolute;
-        top: 250%;
-        left: 10%;
-        width: 80%;
-        height: 14%;
-    } 
-    
-    .amok {
-        position: absolute;
-        top: 270%;
-        left: 10%;
-        width: 80%;
-        height: 25%;
-    }
-    
-    .poru {
-        position: absolute;
-        top: 300%;
-        left: 10%;
-        width: 80%;
-        height: 25%;
-    }
-    
-    .tharang {
-        position: absolute;
-        top: 330%;
-        left: 10%;
-        width: 80%;
-        height: 25%;
-    } 
-    
-    .vishu-song {
-        position: absolute;
-        top: 360%;
-        left: 10%;
-        width: 80%;
-        height: 25%;
-    }
-
-    .telephone-image {
-        visibility: hidden;
-    }
-    
-    .contact {
-        visibility: hidden;
-    }
-    
-    .name {
-        visibility: hidden;
-    }
-    
-    .email {
-        visibility: hidden;
-    }
-    
-    .message {
-        visibility: hidden;
-    }
-    
-    .send {
-        visibility: hidden;
-    }
+.pneumonia-detection-description {
+    font-family: monospace, monospace;
+    color: white;
+    text-align: justify;
+    position: absolute;
+    top: 292%;
+    left: 35%;
+    font-size: 20px;
+    width: 30%; 
+    min-height: 100vh;
+    display: grid;
 }
