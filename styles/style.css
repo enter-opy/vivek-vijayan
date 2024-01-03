@@ -2,7 +2,7 @@ body {
     text-align: center;
     margin: 0px;
     background-color: black;
-    min-height: 4500px;
+    min-height: 5750px;
 }
 
 .space {
@@ -31,17 +31,17 @@ body {
     place-content: center;
 }
 
+.stats {
+    position: absolute;
+    top: 25%;
+    left: 29%;
+    width: 20%; 
+}
+
 .badge-base {
     position: absolute;
     top: 25%;
     left: 51%;
-    width: 50%; 
-}
-
-.content-section {
-    position: absolute;
-    top: 25%;
-    left: 30%;
     width: 50%; 
 }
 
@@ -146,10 +146,10 @@ body {
     top: 385%;
     left: 30%;
     width: 8%;
-    height: 6.5%;
+    height: 30px;
     font-size: 15px;
     background-color: #0D1117;
-    padding-top: 1%;
+    padding-top: 15px;
     border: 1px solid white;
     border-radius: 4px;
     text-decoration: none;
@@ -198,10 +198,10 @@ body {
     top: 475%;
     left: 30%;
     width: 8%;
-    height: 6.5%;
+    height: 30px;
     font-size: 15px;
     background-color: #0D1117;
-    padding-top: 1%;
+    padding-top: 15px;
     border: 1px solid white;
     border-radius: 4px;
     text-decoration: none;
@@ -250,10 +250,10 @@ body {
     top: 624%;
     left: 30%;
     width: 8%;
-    height: 6.5%;
+    height: 30px;
     font-size: 15px;
     background-color: #0D1117;
-    padding-top: 1%;
+    padding-top: 15px;
     border: 1px solid white;
     border-radius: 4px;
     text-decoration: none;
