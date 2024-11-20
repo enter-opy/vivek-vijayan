@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Vijayan</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Vivek Vijayan</h1>
+        <h2>Musician</h2>
+        <div class="profiles">
+            <a href="https://github.com/enter-opy" target="_blank">
+                <img src="{{ url_for('static', filename='images/github.png') }}" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/vivek-vijayan12" target="_blank">
+                <img src="{{ url_for('static', filename='images/linkedin.png') }}" alt="LinkedIn">
+            </a>
+            <a href="https://open.spotify.com/artist/4CMh3BOYiKxHqJ8hUXcDiB" target="_blank">
+                <img src="{{ url_for('static', filename='images/spotify.png') }}" alt="Spotify">
+            </a>
+        </div>
+
+        <div class="education">
+            <h3>Education</h3>
+            <div class="education-cards">
+                <div class="card">
+                    <a href="https://www.upf.edu/smc" target="_blank">
+                        <div class="card-content">
+                            <img src="{{ url_for('static', filename='images/marca.png') }}" alt="School 1" class="card-upf">
+                            <div class="card-text">
+                                <h4>Universitat Pompeu Fabra</h4>
+                                <p>Master's degree in Sound and Music Computing</p>
+                                <span>2024 - 2025</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://ceconline.edu/academics/departments/computer-science/" target="_blank">
+                        <div class="card-content">
+                            <img src="{{ url_for('static', filename='images/CEC-logo.png') }}" alt="School 2" class="card-cec">
+                            <div class="card-text">
+                                <h4>College of Engineering Chengannur</h4>
+                                <p>Bachelor of Technology in Computer Science and Engineering</p>
+                                <span>2020 - 2024</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://www.sbhss.in/2023/07/science-with-computer-science.html" target="_blank">
+                        <div class="card-content">
+                            <img src="{{ url_for('static', filename='images/SB_Higher_Secondary_School_Emblem.png') }}" alt="School 3" class="card-sb">
+                            <div class="card-text">
+                                <h4>St. Berchman's Higher Secondary School</h4>
+                                <p>Higher Secondary Education in Science with Computer Science</p>
+                                <span>2018 - 2020</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>              
+    </div>
+</body>
+</html>
